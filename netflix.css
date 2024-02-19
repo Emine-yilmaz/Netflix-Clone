@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+body {
+  background-color: black;
+  bottom: 10px;
+}
+.main {
+  background-image: url(https://miro.medium.com/v2/resize:fit:1400/format:webp/1*5lyavS59mazOFnb55Z6znQ.png);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  height: 644px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60vw;
+  margin: auto;
+  height: 100px;
+}
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  padding: 3px 8px;
+  background-color: rgba(248, 243, 243, 0.21);
+  color: white;
+  cursor: pointer;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 17px;
+}
+.btn-red {
+  background-color: red;
+}
+.hero {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 30px;
+  height: calc(100% - 100px);
+}
+.hero > :nth-child(1) {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 200;
+}
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-buttons > :nth-child(2) {
+  padding: 8px 24px;
+  font-size: 18px;
+}
+
+.hero-buttons input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  outline: none;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4px;
+  color: white;
+}
+
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.secimg {
+  position: relative;
+}
+.secimg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+
+.secimg video {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+}
+
+.first h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.first p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.seperation {
+  background-color: rgb(67, 67, 67);
+  height: 7px;
+}
+
+.faq {
+  color: white;
+  background-color: black;
+  padding: 35px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq-box {
+  background: #3a3a3a;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 34px auto;
+  cursor: pointer;
+  max-width: 60vw;
+}
+
+.faq-box:hover {
+  background: rgb(34, 33, 33);
+  transition: all 0.5s;
+}
+
+.last-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.last-box input {
+  width: 300px;
+  height: 55px;
+  background-color: #0f0f0f;
+  border: 1px solid gray;
+  padding-left: 5px;
+  color: white;
+  outline: none;
+  border-radius: 4px;
+}
+.last-box button {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.last-box-mail-btn {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
